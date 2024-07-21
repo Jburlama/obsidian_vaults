@@ -11,8 +11,12 @@
             "id": "c115dbb86cbb9057",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "computer_ciense/mlx/Getting Started.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 364.5
   },
   "right": {
     "id": "4e3b0d5e36064959",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer_ciense/mlx/Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer_ciense/mlx/Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer_ciense/mlx/Getting Started.md"
+              }
             }
           }
         ]
@@ -140,16 +148,18 @@
   },
   "active": "c115dbb86cbb9057",
   "lastOpenFiles": [
-    "Untitled.md",
-    "computer_ciense/ray_tracing",
-    "computer_ciense/network/vlan-working.avif",
     "computer_ciense/network/TPC (Transmission Protocol).md",
-    "computer_ciense/network/Questions to ask before subneting.md",
     "computer_ciense/network/Network links.md",
-    "computer_ciense/network/LAN (Local Area Network).md",
+    "computer_ciense/network/Questions to ask before subneting.md",
+    "computer_ciense/network/vlan-working.avif",
     "computer_ciense/network/IP (Internet Protocol).md",
     "computer_ciense/network/Convert binary to decimal.md",
     "computer_ciense/network/Components of Data Communication.md",
+    "computer_ciense/network/LAN (Local Area Network).md",
+    "computer_ciense/mlx/Getting Started.md",
+    "computer_ciense/ray_tracing/Untitled.md",
+    "computer_ciense/mlx",
+    "computer_ciense/ray_tracing",
     "computer_ciense/network",
     "Untitled.canvas",
     "computer_ciense",
