@@ -1,0 +1,1 @@
+- Do You ever wonder how computer determines which packet belongs to which device. What happens if the message you sent to your friend is received by your father? Scary Right. Well! IP is responsible for handling the address of the destination computer so that each packet is sent to its proper destination. 
