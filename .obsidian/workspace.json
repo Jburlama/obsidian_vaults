@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0d114a11d38c93c2",
+        "id": "bebd24e6f0880f90",
         "type": "tabs",
         "children": [
           {
-            "id": "24b514dfc848a99c",
+            "id": "8fb0c8b784cf8921",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/vetores/Vetores - Adição.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afb0c525f0b657ca",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "math/vetores/img/IMG-20180911-WA0033.jpg"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/vetores/Vetores - Adição.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/vetores/Vetores - Adição.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "math/vetores/Vetores - Adição.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -151,44 +133,50 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "24b514dfc848a99c",
+  "active": "8fb0c8b784cf8921",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "math/Trigonometria/Trigonometria.md",
+    "math/vetores/img/img_05.jpg",
     "math/vetores/Vetores - Adição.md",
+    "math/Trigonometria/Lei dos Cosenos.md",
+    "math/Trigonometria/img/1-triangulo-acutangulo-abc.jpg",
+    "math/Trigonometria/Lei dos Senos.md",
+    "math/vetores/vetores.md",
+    "math/Trigonometria/Trigonometria.canvas",
+    "math/Trigonometria/img",
+    "math/Trigonometria",
+    "math/vetores/img/método-da-linha-pontagonal-casos-particulares-1.png",
     "math/vetores/img/IMG-20180911-WA0033.jpg",
+    "Untitled 1.canvas",
     "math/vetores/img/image-713.webp",
     "math/vetores/img/9530.jpg",
     "math/vetores/img/dss2.gif",
-    "math/vetores/img/método-da-linha-pontagonal-casos-particulares-1.png",
-    "math/vetores/vetores.md",
     "math/vetores/img/soma-direcao-vetores.webp",
     "math/vetores/img",
     "Metodo-de-adicao-de-vetores-de-poligonos-de-A-a-B.webp",
-    "computer_ciense/mlx/Getting Started With mlx.md",
+    "Computer Science/mlx/Getting Started With mlx.md",
     "Untitled.md",
     "oi.md",
     "math/vetores",
     "math",
-    "computer_ciense/network/TPC (Transmission Protocol).md",
-    "computer_ciense/network/Network links.md",
-    "computer_ciense/network/Questions to ask before subneting.md",
-    "computer_ciense/network/vlan-working.avif",
-    "computer_ciense/network/IP (Internet Protocol).md",
-    "computer_ciense/network/Convert binary to decimal.md",
-    "computer_ciense/network/Components of Data Communication.md",
-    "computer_ciense/network/LAN (Local Area Network).md",
+    "Computer Science/network/TPC (Transmission Protocol).md",
+    "Computer Science/network/Network links.md",
+    "Computer Science/network/Questions to ask before subneting.md",
+    "Computer Science/network/vlan-working.avif",
+    "Computer Science/network/IP (Internet Protocol).md",
+    "Computer Science/network/Convert binary to decimal.md",
+    "Computer Science/network/Components of Data Communication.md",
+    "Computer Science/network/LAN (Local Area Network).md",
     "computer_ciense/ray_tracing/Untitled.md",
-    "computer_ciense/mlx",
-    "computer_ciense/ray_tracing",
-    "computer_ciense/network",
-    "computer_ciense",
-    "vlan-working.avif",
+    "Computer Science/mlx",
+    "Computer Science/ray_tracing",
+    "Computer Science/network",
+    "Computer Science",
     "Components of Data Communication.md"
   ]
 }

@@ -35,13 +35,24 @@ c = 4 - 3 = 1
 a = 4N
 b = 3N
 
-S = a + b
+$S = a + b$
 
 - para calcular S, podemos utilizar o teorema de Pitágoras.
 
-	**S^2 = a^2 + b^2**
+	**$S^2 = a^2 + b^2$**
 	
-S^2 = 16 + 9
-S^2 = 25
-S = sqrt(25)
-S = 5 //
+$S^2 = 16 + 9$
+$S^2 = 25$
+$S = sqrt(25)$
+$S = 5$ //
+
+# Regra do paralelogramo
+
+![[img_05.jpg]]
+
+. Utilizando a lei dos cosenos:
+[[Lei dos Cosenos]]
+
+$S^2 = b^2 + a^2 + 2.a.b.cosθ$
+
+o motivo do sinal estar positivo e não negativo, porque $cos(180 - α)= -cosθ$
