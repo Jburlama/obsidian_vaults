@@ -4,5 +4,7 @@
   "livePreview": true,
   "showLineNumber": true,
   "autoPairBrackets": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
 }
