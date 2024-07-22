@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bebd24e6f0880f90",
+        "id": "58b8c30c6aebc628",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb0c8b784cf8921",
+            "id": "9d23d65f032859d2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -130,22 +130,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "switcher:Abrir Quick Switcher": false,
+      "graph:Abrir Visualização de diagrama de grafo": false,
+      "templates:Inserir templates": false,
+      "command-palette:Abrir paleta de comando": false,
+      "markdown-importer:Importador de Open Markdown": false,
+      "canvas:Create new canvas": false
     }
   },
-  "active": "8fb0c8b784cf8921",
+  "active": "9d23d65f032859d2",
   "lastOpenFiles": [
+    "math/PI.md",
+    "math/CÍRCULO E CIRCUNFERÊNCIA.md",
+    "math/Trigonometria/Sen Cos Tan.md",
     "math/Trigonometria/Trigonometria.md",
+    "math/Trigonometria/img/material-nwxzdae9.png",
+    "math/Trigonometria/img/usha-a-sin-cos-tan-05-1606473780.png",
+    "math/img/T1.png",
+    "math/Ângulos na Circunferencia.md",
+    "math/Trigonometria/Lei dos Senos.md",
+    "math/img/numero-pi-comprimento-dividido-pelo-diametro-.webp",
+    "math/Trigonometria/Lei dos Cosenos.md",
+    "math/img/partes-de-la-circunferencia.webp",
+    "math/img/setor2-150x150.png",
+    "math/img",
+    "math/Circunferencia/Untitled.md",
+    "math/Circunferencia",
     "math/vetores/img/img_05.jpg",
     "math/vetores/Vetores - Adição.md",
-    "math/Trigonometria/Lei dos Cosenos.md",
     "math/Trigonometria/img/1-triangulo-acutangulo-abc.jpg",
-    "math/Trigonometria/Lei dos Senos.md",
     "math/vetores/vetores.md",
     "math/Trigonometria/Trigonometria.canvas",
     "math/Trigonometria/img",
@@ -153,21 +166,14 @@
     "math/vetores/img/método-da-linha-pontagonal-casos-particulares-1.png",
     "math/vetores/img/IMG-20180911-WA0033.jpg",
     "Untitled 1.canvas",
-    "math/vetores/img/image-713.webp",
-    "math/vetores/img/9530.jpg",
-    "math/vetores/img/dss2.gif",
-    "math/vetores/img/soma-direcao-vetores.webp",
     "math/vetores/img",
-    "Metodo-de-adicao-de-vetores-de-poligonos-de-A-a-B.webp",
     "Computer Science/mlx/Getting Started With mlx.md",
-    "Untitled.md",
     "oi.md",
     "math/vetores",
     "math",
     "Computer Science/network/TPC (Transmission Protocol).md",
     "Computer Science/network/Network links.md",
     "Computer Science/network/Questions to ask before subneting.md",
-    "Computer Science/network/vlan-working.avif",
     "Computer Science/network/IP (Internet Protocol).md",
     "Computer Science/network/Convert binary to decimal.md",
     "Computer Science/network/Components of Data Communication.md",
@@ -176,7 +182,6 @@
     "Computer Science/mlx",
     "Computer Science/ray_tracing",
     "Computer Science/network",
-    "Computer Science",
     "Components of Data Communication.md"
   ]
 }
