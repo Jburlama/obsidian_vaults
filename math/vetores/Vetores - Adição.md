@@ -52,7 +52,8 @@ $S = 5 //$
 
 -  Utilizando a lei dos cosenos:
 		[[Lei dos Cosenos]]
-		
-		$S^2 = b^2 + a^2 + 2.a.b.cosθ$
+	- 	$S² = b² + a^2 - 2.a.b.cosθ$	
+			ou
+	- 	 $S^2 = b^2 + a^2 + 2.a.b.cosα$
 
-- o motivo do sinal estar positivo e não negativo, porque $cos(180 - α)= -cosθ$.
+- o motivo do sinal estar positivo no segundo exemplo e não negativo, porque $cosθ = cos(180 - α)= -cosα$.

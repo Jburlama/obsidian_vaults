@@ -11,12 +11,8 @@
             "id": "9d23d65f032859d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/vetores/Vetores - Adição.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/vetores/Vetores - Adição.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/vetores/Vetores - Adição.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "math/vetores/Vetores - Adição.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,9 +140,9 @@
   },
   "active": "9d23d65f032859d2",
   "lastOpenFiles": [
+    "math/vetores/Vetores - Adição.md",
     "math/Trigonometria/Trigonometria.md",
     "math/Trigonometria/Lei dos Cosenos.md",
-    "math/vetores/Vetores - Adição.md",
     "math/img/T1.png",
     "math/img/numero-pi-comprimento-dividido-pelo-diametro-.webp",
     "math/Trigonometria/Lei dos Senos.md",
