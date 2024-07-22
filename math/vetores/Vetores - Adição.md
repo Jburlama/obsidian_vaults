@@ -10,30 +10,30 @@
 ## Soma vetorial nula
 - uma soma vetorial e nula quando ao fim do último vetor se encontra com a origem do primeiro.
 ![[método-da-linha-pontagonal-casos-particulares-1.png]]
-- F1 + F2 + F3 = 0.
+- $F1 + F2 + F3 = 0$
 
 # Casos Particulares
 ## Mesma direção e o mesmo sentido
 
 ![[image-713.webp]]
-a = 3N
-b = 6N
+$a = 3N$
+$b = 6N$
 
-R = a + b = 9N
+$R = a + b = 9N$
 
 ## Mesma direção e sentido oposto
 ![[dss2.gif]]
 
-a = 4
-b = 3
+$a = 4$
+$b = 3$
 
-c = a + b
-c = 4 - 3 = 1
+$c = a + b$
+$c = 4 - 3 = 1$
 ## Perpendiculares entre si
 ![[IMG-20180911-WA0033.jpg]]
 
-a = 4N
-b = 3N
+$a = 4N$
+$b = 3N$
 
 $S = a + b$
 
@@ -44,15 +44,15 @@ $S = a + b$
 $S^2 = 16 + 9$
 $S^2 = 25$
 $S = sqrt(25)$
-$S = 5$ //
+$S = 5 //$
 
 # Regra do paralelogramo
 
 ![[img_05.jpg]]
 
-. Utilizando a lei dos cosenos:
-[[Lei dos Cosenos]]
+-  Utilizando a lei dos cosenos:
+		[[Lei dos Cosenos]]
+		
+		$S^2 = b^2 + a^2 + 2.a.b.cosθ$
 
-$S^2 = b^2 + a^2 + 2.a.b.cosθ$
-
-o motivo do sinal estar positivo e não negativo, porque $cos(180 - α)= -cosθ$
+- o motivo do sinal estar positivo e não negativo, porque $cos(180 - α)= -cosθ$.

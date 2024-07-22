@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/Trigonometria/Lei dos Senos.md",
+                "file": "math/vetores/Vetores - Adição.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Trigonometria/Lei dos Senos.md",
+                "file": "math/vetores/Vetores - Adição.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/Trigonometria/Lei dos Senos.md",
+                "file": "math/vetores/Vetores - Adição.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Trigonometria/Lei dos Senos.md"
+                "file": "math/vetores/Vetores - Adição.md"
               }
             }
           }
@@ -148,19 +148,20 @@
   },
   "active": "9d23d65f032859d2",
   "lastOpenFiles": [
+    "math/Trigonometria/Trigonometria.md",
     "math/Trigonometria/Lei dos Cosenos.md",
+    "math/vetores/Vetores - Adição.md",
+    "math/img/T1.png",
+    "math/img/numero-pi-comprimento-dividido-pelo-diametro-.webp",
+    "math/Trigonometria/Lei dos Senos.md",
     "math/PI.md",
     "math/CÍRCULO E CIRCUNFERÊNCIA.md",
-    "math/Trigonometria/Lei dos Senos.md",
     "math/Trigonometria/Sen Cos Tan.md",
     "math/img/partes-de-la-circunferencia.webp",
-    "math/img/numero-pi-comprimento-dividido-pelo-diametro-.webp",
     "math/img/setor2-150x150.png",
-    "math/img/T1.png",
     "math/Trigonometria/img/lei-dos-senos-1024x284.png",
     "math/Trigonometria/img/usha-a-sin-cos-tan-05-1606473780.png",
     "math/Trigonometria/img/material-nwxzdae9.png",
-    "math/Trigonometria/Trigonometria.md",
     "math/Trigonometria/img/1-triangulo-acutangulo-abc.jpg",
     "math/Trigonometria/img/0LeidosSenos.png",
     "math/Trigonometria/img/leicosseno.webp",
@@ -168,7 +169,6 @@
     "math/img",
     "math/Circunferencia/Untitled.md",
     "math/Circunferencia",
-    "math/vetores/Vetores - Adição.md",
     "math/vetores/vetores.md",
     "math/Trigonometria/Trigonometria.canvas",
     "math/Trigonometria/img",
