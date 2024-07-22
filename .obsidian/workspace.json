@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d23d65f032859d2",
+            "id": "52504f107643ea25",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "math/Funcão afim.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "math/Funcão afim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "math/Funcão afim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "math/Funcão afim.md"
+              }
             }
           }
         ]
@@ -138,8 +146,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9d23d65f032859d2",
+  "active": "52504f107643ea25",
   "lastOpenFiles": [
+    "math/Funcão afim.md",
+    "math/img/função-afim-02-300x264.webp",
     "math/vetores/Vetores - Adição.md",
     "math/Trigonometria/Trigonometria.md",
     "math/Trigonometria/Lei dos Cosenos.md",
@@ -156,7 +166,6 @@
     "math/Trigonometria/img/material-nwxzdae9.png",
     "math/Trigonometria/img/1-triangulo-acutangulo-abc.jpg",
     "math/Trigonometria/img/0LeidosSenos.png",
-    "math/Trigonometria/img/leicosseno.webp",
     "math/Ângulos na Circunferencia.md",
     "math/img",
     "math/Circunferencia/Untitled.md",
