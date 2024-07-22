@@ -11,8 +11,12 @@
             "id": "9d23d65f032859d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "math/Trigonometria/Lei dos Senos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "math/Trigonometria/Lei dos Senos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "math/Trigonometria/Lei dos Senos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "math/Trigonometria/Lei dos Senos.md"
+              }
             }
           }
         ]
@@ -140,31 +148,31 @@
   },
   "active": "9d23d65f032859d2",
   "lastOpenFiles": [
+    "math/Trigonometria/Lei dos Cosenos.md",
     "math/PI.md",
     "math/CÍRCULO E CIRCUNFERÊNCIA.md",
-    "math/Trigonometria/Sen Cos Tan.md",
-    "math/Trigonometria/Trigonometria.md",
-    "math/Trigonometria/img/material-nwxzdae9.png",
-    "math/Trigonometria/img/usha-a-sin-cos-tan-05-1606473780.png",
-    "math/img/T1.png",
-    "math/Ângulos na Circunferencia.md",
     "math/Trigonometria/Lei dos Senos.md",
-    "math/img/numero-pi-comprimento-dividido-pelo-diametro-.webp",
-    "math/Trigonometria/Lei dos Cosenos.md",
+    "math/Trigonometria/Sen Cos Tan.md",
     "math/img/partes-de-la-circunferencia.webp",
+    "math/img/numero-pi-comprimento-dividido-pelo-diametro-.webp",
     "math/img/setor2-150x150.png",
+    "math/img/T1.png",
+    "math/Trigonometria/img/lei-dos-senos-1024x284.png",
+    "math/Trigonometria/img/usha-a-sin-cos-tan-05-1606473780.png",
+    "math/Trigonometria/img/material-nwxzdae9.png",
+    "math/Trigonometria/Trigonometria.md",
+    "math/Trigonometria/img/1-triangulo-acutangulo-abc.jpg",
+    "math/Trigonometria/img/0LeidosSenos.png",
+    "math/Trigonometria/img/leicosseno.webp",
+    "math/Ângulos na Circunferencia.md",
     "math/img",
     "math/Circunferencia/Untitled.md",
     "math/Circunferencia",
-    "math/vetores/img/img_05.jpg",
     "math/vetores/Vetores - Adição.md",
-    "math/Trigonometria/img/1-triangulo-acutangulo-abc.jpg",
     "math/vetores/vetores.md",
     "math/Trigonometria/Trigonometria.canvas",
     "math/Trigonometria/img",
     "math/Trigonometria",
-    "math/vetores/img/método-da-linha-pontagonal-casos-particulares-1.png",
-    "math/vetores/img/IMG-20180911-WA0033.jpg",
     "Untitled 1.canvas",
     "math/vetores/img",
     "Computer Science/mlx/Getting Started With mlx.md",
