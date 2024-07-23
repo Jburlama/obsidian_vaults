@@ -1,5 +1,8 @@
 [
   "obsidian-vimrc-support",
   "obsidian-languagetool-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-icon-folder",
+  "table-editor-obsidian",
+  "obsidian-excalidraw-plugin"
 ]
