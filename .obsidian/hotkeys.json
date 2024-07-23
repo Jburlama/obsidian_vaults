@@ -56,5 +56,14 @@
       ],
       "key": "P"
     }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
   ]
 }
