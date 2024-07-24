@@ -14,6 +14,7 @@
 
 # Tuples, Points and vector
 
+[[vetores]]
 - A tuple is just an ordered list of things, like numbers.
 
 - To differentiate vectors from points, we will add a parameter called w that will be 0 or 1, 1 being a point and 0 being a vector.
@@ -75,7 +76,6 @@
 
 	![[Captura de ecrã de 2024-07-24 20-17-53.png]]
 
-[[vetores]]
 
 	![[Captura de ecrã de 2024-07-24 20-18-25.png]]
 
@@ -88,13 +88,14 @@
 	![[Captura de ecrã de 2024-07-24 20-28-28.png]]
 
 ### Dot product
+	
+	[[Vetores - Produto Escalar (Multiplicação entre vetores)]]
 
 - When dealing with vectors, a dot product (also called a scalar product, or inner product) is going to turn up when you start intersecting rays with objects, as well as when you compute the shading on a surface. The dot product takes two vectors and returns a scalar value.
 
 	![[Captura de ecrã de 2024-07-24 20-31-58.png]]
 
--  the smaller the dot product, the larger the angle between the vectors. For example, given two unit vectors, a dot product of 1 means the vectors are identical, and a dot product of -1 means they point in opposite directions. More specifically, and again if the two vectors are unit vectors, the dot product is actually the cosine of the angle between them
-
+-  The smaller the dot product, the larger the angle between the vectors. For example, given two unit vectors, a dot product of 1 means the vectors are identical, and a dot product of -1 means they point in opposite directions. More specifically, and again if the two vectors are unit vectors, the dot product is actually the cosine of the angle between them
 
 
 # References
