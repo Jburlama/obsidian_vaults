@@ -90,12 +90,24 @@
 ### Dot product
 	
 	[[Vetores - Produto Escalar (Multiplicação entre vetores)]]
+	https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
 
 - When dealing with vectors, a dot product (also called a scalar product, or inner product) is going to turn up when you start intersecting rays with objects, as well as when you compute the shading on a surface. The dot product takes two vectors and returns a scalar value.
 
 	![[Captura de ecrã de 2024-07-24 20-31-58.png]]
 
 -  The smaller the dot product, the larger the angle between the vectors. For example, given two unit vectors, a dot product of 1 means the vectors are identical, and a dot product of -1 means they point in opposite directions. More specifically, and again if the two vectors are unit vectors, the dot product is actually the cosine of the angle between them
+
+	![[Captura de ecrã de 2024-07-24 23-36-36.png]]
+
+### Cross Product
+
+- The cross product is another vector operation, but unlike the dot product, it returns another vector instead of a scalar.
+
+	![[Captura de ecrã de 2024-07-24 23-42-29.png]]
+	![[Captura de ecrã de 2024-07-24 23-45-02.png]]
+
+
 
 
 # References

@@ -1,21 +1,5 @@
 {
   "graph:open": [],
-  "editor:fold-less": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "="
-    }
-  ],
-  "editor:fold-more": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "-"
-    }
-  ],
   "editor:delete-paragraph": [],
   "obsidian-languagetool-plugin:ltaccept-suggestion-2": [
     {
@@ -64,6 +48,24 @@
         "Shift"
       ],
       "key": "4"
+    }
+  ],
+  "editor:fold-less": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
+  "editor:fold-more": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
     }
   ]
 }
