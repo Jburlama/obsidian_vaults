@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
+                "file": "math/Matrix/Matrix - multiplication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
+                "file": "math/Matrix/Matrix - multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
+                "file": "math/Matrix/Matrix - multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md"
+                "file": "math/Matrix/Matrix - multiplication.md"
               }
             }
           },
@@ -157,11 +157,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "efa14603cb9ff568",
+  "active": "bf9f1a3cceeff4e6",
   "lastOpenFiles": [
+    "math/Matrix/img",
+    "math/Matrix/img.md",
+    "math/Matrix/img/Captura de ecrã de 2024-07-26 03-12-22.png",
+    "math/Matrix/Matrix - multiplication.md",
+    "Computer Science/ray tracing/Whitted ray tracing.md",
+    "math/Matrix",
     "math/vetores/Vetores - Produto Escalar (Multiplicação entre vetores).md",
     "math/Funcão afim.md",
-    "Computer Science/ray tracing/Whitted ray tracing.md",
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 23-45-02.png",
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 23-42-29.png",
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 23-36-36.png",
@@ -176,7 +181,6 @@
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-17-53.png",
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-10-27.png",
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-08-20.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-07-02.png",
     "future ideias/Game Dev Idea.md",
     "future ideias",
     "Excalidraw/Drawing 2024-07-23 22.10.22.excalidraw.md",
@@ -199,12 +203,9 @@
     "math/Trigonometria/img",
     "math/Trigonometria",
     "Untitled 1.canvas",
-    "math/vetores/img",
     "Computer Science/mlx/Getting Started With mlx.md",
     "oi.md",
     "Computer Science/network/TPC (Transmission Protocol).md",
-    "Computer Science/network/Network links.md",
-    "Computer Science/network/Questions to ask before subneting.md",
-    "Computer Science/network/IP (Internet Protocol).md"
+    "Computer Science/network/Network links.md"
   ]
 }

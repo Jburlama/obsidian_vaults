@@ -15,6 +15,7 @@
 # Tuples, Points and vector
 
 [[vetores]]
+
 - A tuple is just an ordered list of things, like numbers.
 
 - To differentiate vectors from points, we will add a parameter called w that will be 0 or 1, 1 being a point and 0 being a vector.
@@ -106,6 +107,7 @@
 
 	![[Captura de ecrã de 2024-07-24 23-42-29.png]]
 	![[Captura de ecrã de 2024-07-24 23-45-02.png]]
+
 
 
 
