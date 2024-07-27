@@ -110,8 +110,35 @@
 
 
 
+# Matrices
 
+- A matrix is a grid of numbers that you can manipulate as a single unit. For  example, here’s a 2x2 matrix. It has two rows and two columns.
+		| 3 1 |
+		| 2 7 |
 
+- And here’s a 3x5 matrix, with three rows and five columns:
+		| 9 1 2 0 3 |
+		| 0 0 2 3 1 |
+		| 8 7 5 4 6 |
+		
+- during the project we will be doing lots of matrix operations we should be able to compare them.
+	![[Screenshot from 2024-07-27 17-55-44.png]]
+	![[Screenshot from 2024-07-27 17-56-31.png]]
+
+## Multiplying Matrices
+
+- https://betterexplained.com/articles/linear-algebra-guide/
+- [https://betterexplained.com/articles/matrix-multiplication/]()
+- Multiplication is the tool you’ll use to perform transformations like scaling, rotation, and translation.
+
+	![[Screenshot from 2024-07-27 18-03-53.png]]
+	![[Screenshot from 2024-07-27 18-05-42.png]]
+
+- Multiplying a matrix by a tuple produces another tuple.
+- we treat the tuple like a one column matrix.
+	![[Screenshot from 2024-07-27 18-09-02.png]]
+	![[Screenshot from 2024-07-27 18-10-06.png]]
 # References
-- https://raytracing.github.io/
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
+- https://betterexplained.com/articles/linear-algebra-guide/
+- [https://betterexplained.com/articles/matrix-multiplication/]()

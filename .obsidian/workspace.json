@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/Matrix/Matrix - multiplication.md",
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Matrix/Matrix - multiplication.md",
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/Matrix/Matrix - multiplication.md",
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Matrix/Matrix - multiplication.md"
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md"
               }
             }
           },
@@ -157,30 +157,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf9f1a3cceeff4e6",
+  "active": "efa14603cb9ff568",
   "lastOpenFiles": [
-    "math/Matrix/img",
-    "math/Matrix/img.md",
-    "math/Matrix/img/Captura de ecrã de 2024-07-26 03-12-22.png",
-    "math/Matrix/Matrix - multiplication.md",
+    "Computer Science/ray tracing/Ray Tracing class.md",
     "Computer Science/ray tracing/Whitted ray tracing.md",
+    "Computer Science/ray tracing/().md",
+    "Computer Science/ray tracing/img/Screenshot from 2024-07-27 18-10-06.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-07-27 18-09-02.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-07-27 18-05-42.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-07-27 18-03-53.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-07-27 17-56-31.png",
+    "math/Matrix/Matrix - multiplication.md",
+    "Computer Science/ray tracing/img/Screenshot from 2024-07-27 17-55-44.png",
+    "Computer Science/ray tracing/img/fig-1.02-lerp.jpg",
+    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 19-22-49.png",
+    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 19-23-09.png",
+    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 19-23-36.png",
+    "Computer Science/ray tracing/img/img",
+    "math/Matrix/img.md",
     "math/Matrix",
     "math/vetores/Vetores - Produto Escalar (Multiplicação entre vetores).md",
     "math/Funcão afim.md",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 23-45-02.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 23-42-29.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 23-36-36.png",
     "math/vetores/vetores.md",
     "math/vetores/Vetores - Adição.md",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-31-58.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-28-28.png",
     "Computer Science/ray tracing/Untitled.md",
-    "Computer Science/ray tracing/Ray Tracing class.md",
     "math/Trigonometria/Trigonometria.md",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-18-25.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-17-53.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-10-27.png",
-    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-24 20-08-20.png",
     "future ideias/Game Dev Idea.md",
     "future ideias",
     "Excalidraw/Drawing 2024-07-23 22.10.22.excalidraw.md",
@@ -201,7 +202,6 @@
     "math/Circunferencia",
     "math/Trigonometria/Trigonometria.canvas",
     "math/Trigonometria/img",
-    "math/Trigonometria",
     "Untitled 1.canvas",
     "Computer Science/mlx/Getting Started With mlx.md",
     "oi.md",
