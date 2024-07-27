@@ -140,5 +140,6 @@
 	![[Screenshot from 2024-07-27 18-10-06.png]]
 # References
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
+- https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
 - https://betterexplained.com/articles/linear-algebra-guide/
 - [https://betterexplained.com/articles/matrix-multiplication/]()
