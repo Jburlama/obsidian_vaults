@@ -6,5 +6,9 @@
   "autoPairBrackets": false,
   "spellcheck": true,
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Submatrices",
+    "submatrix"
+  ]
 }

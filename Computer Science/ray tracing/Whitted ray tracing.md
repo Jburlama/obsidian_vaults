@@ -138,6 +138,52 @@
 - we treat the tuple like a one column matrix.
 	![[Screenshot from 2024-07-27 18-09-02.png]]
 	![[Screenshot from 2024-07-27 18-10-06.png]]
+
+## The Identity Matrix
+
+- If you multiply any number by 1 you get the number itself. For that reason 1 is considered the identity.
+- The same applies for matrix, if you multiply the matrix for the identity, you get the matrix itself.
+	![[Screenshot from 2024-07-28 18-06-55.png]]
+	![[Screenshot from 2024-07-28 18-08-24.png]]
+
+## Transposing Matrices
+
+- To transpose a matrix means that the rows becomes the columns and the columns becomes the rows.
+
+	![[Screenshot from 2024-07-28 18-21-48.png]]
+
+- And interestingly, the transpose of the identity matrix always gives you the identity matrix.
+
+## Inverting Matrices
+
+- If you multiply 5 by 4, you get 20. If you later decide to undo that operation, you can multiply 20 by the inverse of 4 (or 1⁄4) and get 5 again. That’s pretty much the idea for matrices, too.
+- Inverting matrices is the key to transforming and deforming shapes in a ray tracer.
+
+### Determining Determinants
+
+- The determinant is one of the pieces that we'll use to determine the inverse of a matrix.
+	![[Screenshot from 2024-07-28 19-39-00.png]]
+
+### Spotting Submatrices
+
+- A submatrix is what is left when you delete a single row and column from a matrix.
+	![[Screenshot from 2024-07-28 19-42-42.png]]
+
+### Manipulating Minors
+
+- a Minor is the determinant of a submatrix.
+	![[Screenshot from 2024-07-28 19-49-18.png]]
+
+
+### Computing Cofactors
+
+- cofactors are minors that have their signed (possibly) changed.
+- you consider that row and column to determine whether to negate the result.
+	![[Screenshot from 2024-07-28 21-48-50.png]]
+	![[Screenshot from 2024-07-28 21-49-18.png]]
+
+- if row + column is an odd number, then you negate the minor. Otherwise, you just return the minor as is.
+
 # References
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
 - https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
