@@ -286,10 +286,19 @@
 
 	![[Screenshot from 2024-07-30 21-06-07.png]]
 
-- *The transformation matrix for rotating around the z axis is construct like the following:*
+- *The transformation matrix for rotating around the z axis is constructed like the following:*
 	![[Screenshot from 2024-07-30 21-07-12.png]]
 
+## Chaining Transformations
 
+- We can do multiple transformations at the same time, like the following:
+	![[Screenshot from 2024-07-30 21-39-12.png]]
+
+- or we can do like the following because matrix multiplication is associative:
+	![[Screenshot from 2024-07-30 21-41-16.png]]
+
+- but matrix multiplication is not commutative, so the order of operations matters.
+		-  *A * B  is not the same as B * A.*
 
 
 # References
