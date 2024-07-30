@@ -14,3 +14,11 @@
 	![[T1.png]]
 
 [[PI]]
+
+# Radiano
+
+- O ângulo de 1 radiano, e o ângulo formado quando o arco possui o tamanho do raio.
+- O ângulo de 360 graus e igual a 2π radianos.
+- O ângulo de 180 graus e igual a π radianos.
+
+- ![[9478612_orig.png]]

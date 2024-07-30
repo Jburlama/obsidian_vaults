@@ -156,13 +156,40 @@
 
 ## Inverting Matrices
 
-- If you multiply 5 by 4, you get 20. If you later decide to undo that operation, you can multiply 20 by the inverse of 4 (or 1⁄4) and get 5 again. That’s pretty much the idea for matrices, too.
+- inversion is the operation that allows you to reverse the effect of multiplying by a matrix.
+- we can use the inverted matrix to solve for situations where divisions would be necessary.
 - Inverting matrices is the key to transforming and deforming shapes in a ray tracer.
+- if we multiply matrix A by the inverse of A, we get the identity matrix.
+- **If a matrix have a determinant equal to zero, then we cannot determine the inverse, because we would be dividing by 0. Such a matrix is called a singular matrix.**
+
+- ==STEP1:== Find the determinant.
+- ==STEP2:== Find the matrix of cofactors.
+- ==STEP3:== Transpose the cofactor matrix.
+- ==STEP4:== Divide each element of the cofactor matrix by the determinant of the original matrix.
+
+	![[Screenshot from 2024-07-30 16-33-50.png]]
+	![[Screenshot from 2024-07-30 16-41-39.png]]
+
+- *This part of the code is important to be working correctly, here are some test to make sure everything is working has intended.*
+
+	![[Screenshot from 2024-07-30 16-45-52.png]]
+	![[Screenshot from 2024-07-30 16-46-33.png]]
 
 ### Determining Determinants
 
 - The determinant is one of the pieces that we'll use to determine the inverse of a matrix.
+- this is how to determine the determinant of a 2×2 matrix.
+
 	![[Screenshot from 2024-07-28 19-39-00.png]]
+
+- to determine the determinant of a 3×3 matrix we need first to determine the minor of any row, then multiplied by the element in the following formula.
+		$(0,0)*minor(0,0) - (0,1)*minor(0,1) + (0,2)*minor(0,2)$
+- or alternately can use the cofactor:
+		$(0,0)*cofactor(0,0) + (0,1)*cofactor(0,1) + (0,2)cofactor(0,2)$
+- this also works for 4×4 matrix.
+	![[Screenshot from 2024-07-29 18-35-15.png]]
+	![[Screenshot from 2024-07-29 18-36-20.png]]
+
 
 ### Spotting Submatrices
 
@@ -184,8 +211,89 @@
 
 - if row + column is an odd number, then you negate the minor. Otherwise, you just return the minor as is.
 
+# Matrix transformations
+
+## Translation
+
+- Translation is a transformation that moves a point by adding the translation matrix.
+
+	![[Screenshot from 2024-07-30 18-22-15.png]]
+
+- If you take the inverse of a translation matrix, you make another translation matrix, that moves the point in reverse.
+	![[Screenshot from 2024-07-30 18-24-27.png]]
+
+
+	![[Screenshot from 2024-07-30 18-04-56.png]]
+	
+- Translation matrices cannot move vectors, only points, the reason for that will be the w component that is set to 0 for vectors, and that will cause the translation to be ignored, when multiplied by a vector.
+
+	![[Screenshot from 2024-07-30 18-27-20.png]]
+
+## Scaling
+
+- Where translation moves a point by adding to it, scaling moves it by multiplication.
+- When applied to an object centered at the origin, this transformation scales all points on the object, effectively making it larger (if the scale value is greater than 1) or smaller (if the scale value is less than 1).
+	![[Screenshot from 2024-07-30 19-48-24.png]]
+
+- Scaling applies to vectors as well, changing their length.
+	![[Screenshot from 2024-07-30 19-49-53.png]]
+
+- Multiplying a tuple by the inverse of a scaling matrix will scale the tuple in the opposite way.
+	![[Screenshot from 2024-07-30 19-51-53.png]]
+
+- *Constructing a scaling matrix:*
+	![[Screenshot from 2024-07-30 19-53-48.png]]
+
+## Reflection
+
+- Reflection is a transformation that takes a point and reflects it, moving it to the other side of an axis.
+- Reflection is essentially the same thing as scaling by a negative value.
+
+	![[Screenshot from 2024-07-30 19-59-50.png]]
+
+## Rotation
+
+- Multiplying a tuple by a rotation matrix will rotate that tuple around an axis.
+- Each of the three axes requires a different matrix to implement the rotation.
+
+	[[CÍRCULO E CIRCUNFERÊNCIA]]
+
+### Rotation around the X axis
+
+- This first rotation matrix rotates a tuple some number of radians around the x axis.
+
+	![[Screenshot from 2024-07-30 20-41-41.png]]
+
+- The inverse of a rotation matrix, will rotate in the opposite direction.
+
+	![[Screenshot from 2024-07-30 20-48-49.png]]
+
+- *The transformation matrix for rotating around the x axis is construct like the following:*
+	![[Screenshot from 2024-07-30 20-59-50.png]]
+
+### Rotating around the Y axis
+
+- The y axis rotation works just like the x axis rotation, only changing the y axis.
+
+	![[Screenshot from 2024-07-30 21-02-47.png]]
+
+- *The transformation matrix for rotating around the y axis is construct like the following:*
+	![[Screenshot from 2024-07-30 21-04-19.png]]
+
+### Rotating around the Z axis
+
+- the z axis rotation woks just like the previous rotations, only changing the z axis.
+
+	![[Screenshot from 2024-07-30 21-06-07.png]]
+
+- *The transformation matrix for rotating around the z axis is construct like the following:*
+	![[Screenshot from 2024-07-30 21-07-12.png]]
+
+
+
+
 # References
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
 - https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
 - https://betterexplained.com/articles/linear-algebra-guide/
-- [https://betterexplained.com/articles/matrix-multiplication/]()
+- https://betterexplained.com/articles/matrix-multiplication/
