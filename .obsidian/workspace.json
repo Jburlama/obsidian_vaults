@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
+                "file": "math/PI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2491a9d15a70ab63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/Formula quadratica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
+                "file": "math/Formula quadratica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
+                "file": "math/Formula quadratica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/ray tracing/Whitted ray tracing.md"
+                "file": "math/Formula quadratica.md"
               }
             }
           },
@@ -157,22 +170,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf9f1a3cceeff4e6",
+  "active": "2491a9d15a70ab63",
   "lastOpenFiles": [
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 21-41-16.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 21-39-12.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 21-07-12.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 21-06-07.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 21-04-19.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 21-02-47.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 20-59-50.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 20-48-49.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-07-30 20-41-41.png",
-    "Computer Science/ray tracing/Ray Tracing class.md",
-    "math/CÍRCULO E CIRCUNFERÊNCIA.md",
-    "math/img/9478612_orig.png",
-    "math/img/função-afim-02-300x264.webp",
     "Computer Science/ray tracing/Whitted ray tracing.md",
+    "math/Formula quadratica.md",
+    "math/CÍRCULO E CIRCUNFERÊNCIA.md",
+    "math/img/quadratic-formula-explained.png",
+    "math/PI.md",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-56-01.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-47-28.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-40-48.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-39-55.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-38-23.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-37-45.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-34-19.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-31-52.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-30-21.png",
+    "Computer Science/ray tracing/Ray Tracing class.md",
     "Computer Science/ray tracing/().md",
     "math/Matrix/Matrix - multiplication.md",
     "Computer Science/ray tracing/img/img",
@@ -196,7 +210,6 @@
     "math/Trigonometria/Sen Cos Tan.md",
     "math/Trigonometria/Lei dos Cosenos.md",
     "math/Trigonometria/Lei dos Senos.md",
-    "math/PI.md",
     "math/Ângulos na Circunferencia.md",
     "math/img",
     "math/Circunferencia/Untitled.md",
@@ -205,7 +218,6 @@
     "math/Trigonometria/img",
     "Untitled 1.canvas",
     "Computer Science/mlx/Getting Started With mlx.md",
-    "oi.md",
-    "Computer Science/network/TPC (Transmission Protocol).md"
+    "oi.md"
   ]
 }

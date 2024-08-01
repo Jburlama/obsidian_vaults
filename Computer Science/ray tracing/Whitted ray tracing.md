@@ -25,7 +25,6 @@
 	
 
 	![[Captura de ecrã de 2024-07-24 19-23-09.png]]
-
 ##  Comparing floating points
 ![[Captura de ecrã de 2024-07-24 19-23-36.png]]
 
@@ -299,7 +298,54 @@
 
 - but matrix multiplication is not commutative, so the order of operations matters.
 		-  *A * B  is not the same as B * A.*
+# Ray-Sphere Intersections
 
+- Ray casting is the process of creating a ray, or line, and finding the intersections of that ray with the objects in a scene.
+
+## Creating Rays
+
+- Each ray will have a stating point called the origin, and a vector, called direction which says here it points.
+	![[Screenshot from 2024-07-31 20-03-01.png]]
+
+- We can find any point that lies along the ray with t.
+	![[Screenshot from 2024-07-31 20-05-25.png]]
+
+- To find the position, you multiply the ray’s direction by t to find the total distance traveled, and then add that to the ray’s origin.
+	![[Screenshot from 2024-07-31 20-06-38.png]]
+	![[Screenshot from 2024-07-31 20-08-46.png]]
+
+## Intersecting Rays with Spheres
+
+- Given a sphere with its center at the point (0,0,0) with radius of 1.
+- A ray with origin point (0,0,-5) and a direction vector (0,0,1).
+- The ray should intersect the sphere at (0,0,-1) and (0,0,1), 4 and 6 units respectively away from its origin point.
+	![[Screenshot from 2024-08-01 16-21-53.png]]
+	![[Screenshot from 2024-08-01 16-22-36.png]]
+
+- If the same ray move 1 point in the y direction, it will intersect the sphere at the tangent.
+	![[Screenshot from 2024-08-01 16-30-21.png]]
+	![[Screenshot from 2024-08-01 16-31-52.png]]
+
+- If the ray move just a bit int the y direction, it should miss the sphere, not intersecting at all.
+	![[Screenshot from 2024-08-01 16-34-19.png]]
+
+- If the originates inside the sphere, it should have one intersection point in front and another behind the ray.
+	![[Screenshot from 2024-08-01 16-37-45.png]]
+	![[Screenshot from 2024-08-01 16-38-23.png]]
+
+- If the sphere is completely behind the ray we should get two intersection with negative values.
+	![[Screenshot from 2024-08-01 16-39-55.png]]
+	![[Screenshot from 2024-08-01 16-40-48.png]]
+
+### Discriminant
+
+- Start by computing the discriminant — A number that tell you whether the ray hits the sphere or not.
+	![[Screenshot from 2024-08-01 16-47-28.png]]
+
+- If the discriminant is negative than the ray misses the sphere.
+- Otherwise we'll see two intersection or one, if the ray hits the sphere at the tangent.
+	![[Screenshot from 2024-08-01 16-56-01.png]]
+- If the ray intersects at the tangent both t1, and t2 will be the same value.
 
 # References
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
