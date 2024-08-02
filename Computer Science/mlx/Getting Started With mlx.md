@@ -138,6 +138,16 @@ int	main(void)
 ```
 
 
+- BitShifting 
+
+```c
+int	create_trgb(int t, int r, int g, int b)
+{
+	return (t << 24 | r << 16 | g << 8 | b);
+}
+```
+
+
 # References
 
 https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html

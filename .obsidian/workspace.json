@@ -8,31 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "efa14603cb9ff568",
+            "id": "2491a9d15a70ab63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/PI.md",
+                "file": "Computer Science/mlx/Getting Started With mlx.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2491a9d15a70ab63",
+            "id": "e49fefda456fbc3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/Formula quadratica.md",
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5
+    "width": 430.5
   },
   "right": {
     "id": "4e3b0d5e36064959",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Formula quadratica.md",
+                "file": "Computer Science/mlx/Getting Started With mlx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/Formula quadratica.md",
+                "file": "Computer Science/mlx/Getting Started With mlx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Formula quadratica.md"
+                "file": "Computer Science/mlx/Getting Started With mlx.md"
               }
             }
           },
@@ -173,19 +172,21 @@
   "active": "2491a9d15a70ab63",
   "lastOpenFiles": [
     "Computer Science/ray tracing/Whitted ray tracing.md",
+    "Computer Science/mlx/Getting Started With mlx.md",
+    "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-26 03-12-22.png",
     "math/Formula quadratica.md",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 20-15-09.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 20-11-39.png",
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-56-01.png",
+    "math/Funcão afim.md",
+    "math/PI.md",
     "math/CÍRCULO E CIRCUNFERÊNCIA.md",
     "math/img/quadratic-formula-explained.png",
-    "math/PI.md",
-    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-56-01.png",
     "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-47-28.png",
     "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-40-48.png",
     "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-39-55.png",
     "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-38-23.png",
     "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-37-45.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-34-19.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-31-52.png",
-    "Computer Science/ray tracing/img/Screenshot from 2024-08-01 16-30-21.png",
     "Computer Science/ray tracing/Ray Tracing class.md",
     "Computer Science/ray tracing/().md",
     "math/Matrix/Matrix - multiplication.md",
@@ -193,7 +194,6 @@
     "math/Matrix/img.md",
     "math/Matrix",
     "math/vetores/Vetores - Produto Escalar (Multiplicação entre vetores).md",
-    "math/Funcão afim.md",
     "math/vetores/vetores.md",
     "math/vetores/Vetores - Adição.md",
     "Computer Science/ray tracing/Untitled.md",
@@ -217,7 +217,6 @@
     "math/Trigonometria/Trigonometria.canvas",
     "math/Trigonometria/img",
     "Untitled 1.canvas",
-    "Computer Science/mlx/Getting Started With mlx.md",
     "oi.md"
   ]
 }

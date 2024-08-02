@@ -96,7 +96,7 @@
 
 	![[Captura de ecrã de 2024-07-24 20-31-58.png]]
 
--  The smaller the dot product, the larger the angle between the vectors. For example, given two unit vectors, a dot product of 1 means the vectors are identical, and a dot product of -1 means they point in opposite directions. More specifically, and again if the two vectors are unit vectors, the dot product is actually the cosine of the angle between them
+-  The smaller the dot product, the larger the angle between the vectors. For example, given two unit vectors, a dot product of 1 means the vectors are identical, and a dot product of -1 means they point in opposite directions. More specifically, and again if the two vectors are unit vectors, the dot product is actually the cosine of the angle between them.
 
 	![[Captura de ecrã de 2024-07-24 23-36-36.png]]
 
@@ -316,6 +316,12 @@
 
 ## Intersecting Rays with Spheres
 
+- To see if a the ray intersects the sphere, we will join the vector equation with the sphere equation.
+	- $P(t) = O + Dt$
+	- $(p - c)^2 = r^2$
+	- $(P(t) - c)^2 + r^2$
+
+
 - Given a sphere with its center at the point (0,0,0) with radius of 1.
 - A ray with origin point (0,0,-5) and a direction vector (0,0,1).
 - The ray should intersect the sphere at (0,0,-1) and (0,0,1), 4 and 6 units respectively away from its origin point.
@@ -339,6 +345,10 @@
 
 ### Discriminant
 
+	[[Formula quadratica]]
+	https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection
+	https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection.html
+	
 - Start by computing the discriminant — A number that tell you whether the ray hits the sphere or not.
 	![[Screenshot from 2024-08-01 16-47-28.png]]
 
@@ -347,8 +357,22 @@
 	![[Screenshot from 2024-08-01 16-56-01.png]]
 - If the ray intersects at the tangent both t1, and t2 will be the same value.
 
+
+## Tracking Intersections
+
+- The intersection data structure will aggregate:
+	1. The t value of the intersection, and
+	2. The object that was intersected.
+	
+	![[Screenshot from 2024-08-01 20-11-39.png]]
+
+- You’ll also need a way to aggregate these intersection objects so you can work with multiple intersections at once.
+	![[Screenshot from 2024-08-01 20-15-09.png]]
+
 # References
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
 - https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
 - https://betterexplained.com/articles/linear-algebra-guide/
 - https://betterexplained.com/articles/matrix-multiplication/
+- https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection
+- https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection.html
