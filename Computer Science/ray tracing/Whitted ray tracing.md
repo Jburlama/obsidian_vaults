@@ -1,4 +1,5 @@
 - file:///home/jhonas/Downloads/Jamis%20Buck%20-%20The%20Ray%20Tracer%20Challenge-Pragmatic%20Bookshelf%20(2019)-1.pdf
+- [[maping floats to pixels]]
 
 - a recursive ray tracing that in a nutshell the algorithm works like this for each of the image’s pixels:
 
@@ -289,8 +290,7 @@
 	![[Screenshot from 2024-07-30 21-07-12.png]]
 
 ## Chaining Transformations
-
-- We can do multiple transformations at the same time, like the following:
+ - We can do multiple transformations at the same time, like the following:
 	![[Screenshot from 2024-07-30 21-39-12.png]]
 
 - or we can do like the following because matrix multiplication is associative:
@@ -316,14 +316,9 @@
 
 ## Intersecting Rays with Spheres
 
-- To see if a the ray intersects the sphere, we will join the vector equation with the sphere equation.
-	- $P(t) = O + Dt$
-	- $(p - c)^2 = r^2$
-	- $(P(t) - c)^2 + r^2$
+- **Given a sphere with its center at the point (0,0,0) with radius of 1.**
+- **A ray with origin point (0,0,-5) and a direction vector (0,0,1).**
 
-
-- Given a sphere with its center at the point (0,0,0) with radius of 1.
-- A ray with origin point (0,0,-5) and a direction vector (0,0,1).
 - The ray should intersect the sphere at (0,0,-1) and (0,0,1), 4 and 6 units respectively away from its origin point.
 	![[Screenshot from 2024-08-01 16-21-53.png]]
 	![[Screenshot from 2024-08-01 16-22-36.png]]
@@ -345,6 +340,11 @@
 
 ### Discriminant
 
+- To see if the ray intersects the sphere, we will join the vector equation with the sphere equation.
+	- $P(t) = O + Dt$
+	- $(p - c)^2 = r^2$
+	- $(P(t) - c)^2 = r^2$
+	
 	[[Formula quadratica]]
 	https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection
 	https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection.html
@@ -357,8 +357,7 @@
 	![[Screenshot from 2024-08-01 16-56-01.png]]
 - If the ray intersects at the tangent both t1, and t2 will be the same value.
 
-
-## Tracking Intersections
+### Tracking Intersections
 
 - The intersection data structure will aggregate:
 	1. The t value of the intersection, and
@@ -369,6 +368,13 @@
 - You’ll also need a way to aggregate these intersection objects so you can work with multiple intersections at once.
 	![[Screenshot from 2024-08-01 20-15-09.png]]
 
+### Identifying hits
+
+- The hit will never be behind the ray’s origin, since that’s effectively behind the camera.
+- the hit will always be the intersection with the lowest non negative t value.
+
+	![[Screenshot from 2024-08-04 18-52-25.png]]
+
 # References
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
 - https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
@@ -376,3 +382,4 @@
 - https://betterexplained.com/articles/matrix-multiplication/
 - https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection
 - https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection.html
+- https://forum.arduino.cc/t/floating-point-using-map-function/348113

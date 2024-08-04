@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/mlx/Getting Started With mlx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e49fefda456fbc3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "mode": "source",
                 "source": false
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/mlx/Getting Started With mlx.md",
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/mlx/Getting Started With mlx.md",
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/mlx/Getting Started With mlx.md"
+                "file": "Computer Science/ray tracing/Whitted ray tracing.md"
               }
             }
           },
@@ -169,8 +157,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2491a9d15a70ab63",
+  "active": "bf9f1a3cceeff4e6",
   "lastOpenFiles": [
+    "Computer Science/ray tracing/img/Screenshot from 2024-08-04 18-52-25.png",
+    "Computer Science/ray tracing/maping floats to pixels.md",
     "Computer Science/ray tracing/Whitted ray tracing.md",
     "Computer Science/mlx/Getting Started With mlx.md",
     "Computer Science/ray tracing/img/Captura de ecrã de 2024-07-26 03-12-22.png",
@@ -196,7 +186,6 @@
     "math/vetores/Vetores - Produto Escalar (Multiplicação entre vetores).md",
     "math/vetores/vetores.md",
     "math/vetores/Vetores - Adição.md",
-    "Computer Science/ray tracing/Untitled.md",
     "math/Trigonometria/Trigonometria.md",
     "future ideias/Game Dev Idea.md",
     "future ideias",
