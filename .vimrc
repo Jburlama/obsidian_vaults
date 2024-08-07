@@ -1,3 +1,6 @@
+set scrolloff=8 
+
+
 "save and quit
 noremap <leader>w :w<CR>
 noremap <leader>q :q<CR>

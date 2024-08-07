@@ -87,6 +87,8 @@
 - Normalization is the process of taking an arbitrary vector and converting it into a unit vector. It will keep your calculations anchored relative to a common scale (the unit vector), which is pretty important. If you were to skip normalizing your ray vectors or your surface normal, your calculations would be scaled differently for every ray you cast, and your scenes would look terrible (if they rendered at all).
 
 	![[Captura de ecrã de 2024-07-24 20-28-28.png]]
+	
+	[[Fast inverse square root]]
 
 ### Dot product
 	
@@ -320,23 +322,10 @@
 - **A ray with origin point (0,0,-5) and a direction vector (0,0,1).**
 
 - The ray should intersect the sphere at (0,0,-1) and (0,0,1), 4 and 6 units respectively away from its origin point.
-	![[Screenshot from 2024-08-01 16-21-53.png]]
-	![[Screenshot from 2024-08-01 16-22-36.png]]
-
 - If the same ray move 1 point in the y direction, it will intersect the sphere at the tangent.
-	![[Screenshot from 2024-08-01 16-30-21.png]]
-	![[Screenshot from 2024-08-01 16-31-52.png]]
-
 - If the ray move just a bit int the y direction, it should miss the sphere, not intersecting at all.
-	![[Screenshot from 2024-08-01 16-34-19.png]]
-
 - If the originates inside the sphere, it should have one intersection point in front and another behind the ray.
-	![[Screenshot from 2024-08-01 16-37-45.png]]
-	![[Screenshot from 2024-08-01 16-38-23.png]]
-
 - If the sphere is completely behind the ray we should get two intersection with negative values.
-	![[Screenshot from 2024-08-01 16-39-55.png]]
-	![[Screenshot from 2024-08-01 16-40-48.png]]
 
 ### Discriminant
 
@@ -371,11 +360,88 @@
 ### Identifying hits
 
 - The hit will never be behind the ray’s origin, since that’s effectively behind the camera.
-- the hit will always be the intersection with the lowest non negative t value.
+- the hit will always be the intersection with the lowest non-negative t value.
 
 	![[Screenshot from 2024-08-04 18-52-25.png]]
 
+### Transforming Rays and Spheres
+
+- In other to transform the object, we need to change the relationship between the ray and the object. Therefore, we don't necessary need to move the object itself by the ray.
+
+	![[Screenshot from 2024-08-06 17-26-14.png]]
+	- You have to leave that vector with its new length, so that when the t value is eventually computed, it represents an intersection at the correct distance (in world space!) from the ray’s origin.
+
+# Light and Shading
+
+- To do this, you’ll add a source of light, and then implement a shading algorithm to approximate how brightly that light illuminates the surfaces it shines on.
+
+- We will need 4 vectors.
+	![[Screenshot from 2024-08-06 17-45-13.png]]
+	*• E is the eye vector, pointing from P to the origin of the ray (usually, where the eye exists that is looking at the scene).
+	• L is the light vector, pointing from P to the position of the light source.
+	• N is the surface normal, a vector that is perpendicular to the surface at P.
+	• R is the reflection vector, pointing in the direction that incoming light would bounce, or reflect.*
+
+• To find E, you can negate the ray’s direction vector, turning it around to point back at its origin.
+• To find L, you subtract P from the position of the light source, giving you the vector pointing toward the light.
+
+## Surface Normal
+
+### Computing the Normal on a Sphere
+
+- The following function normal_at(sphere, point) will return the normal on the given sphere, at the given point.
+
+	![[Screenshot from 2024-08-07 11-35-37.png]]
+
+- Those vectors needs to be normalized.
+
+	![[Screenshot from 2024-08-07 11-37-39.png]] 
+	
+	![[Screenshot from 2024-08-07 12-58-41.png]]
+
+- Note that, because this is a unit sphere, the vector will be normalized by default for any point on its surface, so it’s not strictly necessary to explicitly normalize it here.
+	![[Screenshot from 2024-08-07 13-02-26.png]]
+
+### Transforming Normals
+
+- If you were to naively apply the algorithm above to find the normal at almost any point on that sphere, you’d find that it no longer works correctly.
+
+	![[Screenshot from 2024-08-07 13-04-46.png]]
+
+- The sphere origin is no longer at the world center.
+
+### Reflecting Vectors
+
+- the case where a vector approaches a normal at a 45° angle, moving at equal speed in both x and y. It should emerge at a 45° angle, with its y component reversed.
+
+	![[Screenshot from 2024-08-07 13-38-27.png]]
+	
+	![[Screenshot from 2024-08-07 13-39-36.png]]
+
+### The Phong Reflection Model
+
+- It simulates the interaction between three different types of lighting:
+
+	-  *Ambient reflection is background lighting*
+	- *Diffuse reflection is light reflected from a matte surface.*
+	- *Specular reflection is the reflection of the light source itself and results in what is called a specular highlight—the bright spot on a curved surface.*
+		
+	![[Screenshot from 2024-08-07 15-08-35.png]]
+
+#### light source
+
+- Its defined by its intensity, or how bright it is. The intensity also describes the color of the light source.
+
+	![[Screenshot from 2024-08-07 15-14-39.png]]
+
+
+
+
+
+
+
 # References
+
 - https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/
 - https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/	
 - https://betterexplained.com/articles/linear-algebra-guide/
